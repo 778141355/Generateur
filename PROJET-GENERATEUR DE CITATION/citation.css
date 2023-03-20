@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Sansita Swashed', cursive;
+  
+}
+
+body {
+	background-image: url("blog1.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin: 10px;
+	padding: 50px;
+	text-align: center;
+	height: 100vh;
+	width: 150vh;
+	
+
+}
+
+
+
+#password-generator {
+	position: relative;
+	padding: 20px;
+	margin: 0 auto;
+	/* taille generateur */
+	width: 500px;
+	height: 300px; 
+	border-radius: 30px;
+	
+  }
+  
+
+.container {
+	max-width: 480px;
+	margin-top: 10px;
+	font-family: 'Contrail One', cursive;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+
+
+.block {
+	margin-bottom:  30px;
+	padding: 20px;
+	font-family: 'Caveat', cursive;
+	font-size: 18px;
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	margin-left: auto;
+
+	}
+
+.quote {
+	height: 40px;
+}
+
+footer {
+	padding-top: 10px;
+	margin-top: 50px;
+
+	text-align: right;
+}
+
+.btn {
+	width: 45%;
+	height: 30%;
+	margin: 10px;
+	font-size: 18px;
+	display: inline-block;
+	
+
+}
+
+
+
+   
+  .range{
+	   font-size: 20px;
+  }
+
+   /* bouton generer et copier */
+   .button {
+	font-family: 'Sansita Swashed', cursive;
+	background-color: transparenta;
+	border: solid gray;
+	color: black;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 100px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 30px;
+
+  }
+   .button:hover {
+	background-color: #636363;
+	color: white;
+	font-size: 18px;
+	border-radius: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
